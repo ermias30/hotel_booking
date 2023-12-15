@@ -2,7 +2,7 @@ import pandas as pd
 
 df = pd.read_csv("hotels.csv", dtype={"id": str})
 df_cards = pd.read_csv("cards.csv", dtype=str).to_dict(orient="records")
-df_cards_secure=pd.read_csv("card-security.csv",dtype=str)
+df_cards_secure=pd.read_csv("../OO_AGAIN_HOTEL_BOOKING/card-security.csv",dtype=str)
 
 
 # class User:
@@ -89,6 +89,31 @@ if hotel.available():
         print("wrong credit card")
 else:
     print("hotel is not free")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # df = pd.DataFrame({'Sports': ['Football', 'Cricket', 'Baseball', 'Basketball',
 #                               'Tennis', 'Table-tennis', 'Archery', 'Swimming', 'Boxing'],
